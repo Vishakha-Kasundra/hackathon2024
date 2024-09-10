@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TulsiActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="151dp"
+        android:layout_height="155dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/tulsi" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textSize="18dp"
+        android:text="Tulsi \n\nHindi Name: Tulsi \nSanskrit Name: Tulsi\nEnglish Name: Holy Basil\nLatin Name: Ocimum sactum Linn"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textSize="18dp"
+        android:scrollbars="vertical"
+        android:text="
+        \n \t\tAn annual delicate herb cultivated extensively in tropical climate of the country. It is also planted in kitchen garden and as an indoor plant since it is kept sacred in Hindu philosophy.
+Indian mythology attaches a great significance to Basil by recognizing it as a holy herb. Perhaps, such significance comes from the actual health applications of the herb. Its use is recommended as a first aid in the treatment of respiratory, digestive and skin diseases. " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:text="Gujarati"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:text="Hindi"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:text="English"/>
+    </LinearLayout>
+
+
+</LinearLayout>
